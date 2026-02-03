@@ -1,11 +1,11 @@
 name: Python Unit Tests
 
-# Kører når du pusher eller laver pull request til main
+# Kører når du pusher eller laver pull request til master
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   test:
