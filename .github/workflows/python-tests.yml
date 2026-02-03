@@ -31,4 +31,4 @@ jobs:
     # 4️⃣ Kør tests med pytest
     - name: Run tests
       run: |
-        pytest -v
+        pytest -v tests/
